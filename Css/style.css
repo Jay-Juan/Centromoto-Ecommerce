@@ -54,3 +54,11 @@ body {
 .iconImg {
     height: 2em;
 }
+
+.mainImg {
+    height: 55vh;
+}
+
+.card-title{
+    color: #000;
+}
