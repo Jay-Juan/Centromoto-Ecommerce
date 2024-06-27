@@ -1,31 +1,56 @@
-.card {
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  footer {
+    margin-top: auto;
+  }
+
+.featuredBox {
+
+}
+
+.productBox {
+    width: 18rem;
+}
+
+.productBox, .featuredBox {
     box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
     transition: 0.4s;
 }
 
-.card:hover {
+.productBox:hover, .featuredBox:hover {
     transform: scale(1.2);
     z-index: 2;
 }
 
-.dropdown-menu {
+.dropdown {
+    text-align: center;
+}
+
+.storeDropdown {
     border-radius: 0;
     border: none;
     padding: .5em;
     box-shadow: 0 3px 6px rgb(0, 0, 0, .23);
 }
 
-.dropdown-menu ul {
+.storeDropdown ul {
     list-style: none;
     padding: 0;
 }
 
-.dropdown-menu.show {
+.storeDropdown.show {
     display: flex;
 }
 
-.dropdown-menu li:first-child a {
+.storeDropdown li:first-child a {
     font-weight: bold;
     font-size: 1.2em;
     color: #000;
+}
+.iconImg {
+    height: 2em;
 }

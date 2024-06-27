@@ -23,16 +23,42 @@
             </div>
 
             <div class="col-6">
-                <form class="d-flex" role="search">
-                    <input class="form-control me-0" type="search" placeholder="Buscá tu moto, marca o pieza"
+                <form class="d-flex bg-white rounded border" role="search">
+                    <input class="form-control me-0 border-white" type="search" placeholder="Buscá tu moto, marca o pieza"
                         aria-label="Search">
-                    <button class="btn btn-outline-dark" type="submit">Search</button>
+                    <button class="btn" type="submit"><img src="./IMG/Logos generales/Search.png" class="iconImg" alt=""></button>
                 </form>
             </div>
             <div class="col-1 d-flex justify-content-end">
-                <a class="nav-link" href="#">
-                    Iniciar sesión
-                </a>
+                <div class="dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        Iniciar sesión
+                    </a>
+                    <div class="dropdown-menu">
+                        <form class="px-4 py-3">
+                          <div class="mb-3">
+                            <label for="exampleDropdownFormEmail1" class="form-label">Usuario</label>
+                            <input type="email" class="form-control" id="exampleDropdownFormEmail1" >
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleDropdownFormPassword1" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" id="exampleDropdownFormPassword1">
+                          </div>
+                          <div class="mb-3">
+                            <div class="form-check">
+                              <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                              <label class="form-check-label" for="dropdownCheck">
+                                Recordar cuenta
+                              </label>
+                            </div>
+                          </div>
+                          <button type="submit" class="btn btn-secondary">Iniciar sesión</button>
+                        </form>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Crea tu cuenta</a>
+                        <a class="dropdown-item" href="#">Recupera tu contraseña</a>
+                      </div>
+                </div>
             </div>
             <div class=" col-1 d-flex ">
                 <i class="bi bi-cart" width="40"></i>
@@ -44,9 +70,12 @@
                     aria-expanded="false">
                     Motos
                 </a>
-                <div class="dropdown-menu">
+                <div class="dropdown-menu storeDropdown">
                     <ul>
                         <li><a class="dropdown-item" href="#">Honda</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
                         <li><a class="dropdown-item" href="#">Honda 50</a></li>
                         <li><a class="dropdown-item" href="#">Honda C70</a></li>
                         <li><a class="dropdown-item" href="#">Honda C70 Econopower</a></li>
@@ -54,12 +83,31 @@
                     </ul>
                     <ul>
                         <li><a class="dropdown-item" href="#">Yamaha</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
                         <li><a class="dropdown-item" href="#">Yamaha DT</a></li>
                         <li><a class="dropdown-item" href="#">Yamaha RDC 125</a></li>
                         <li><a class="dropdown-item" href="#">Yamaha XJ 650</a></li>
                     </ul>
                     <ul>
-                        <li><a class="dropdown-item" href="#">Kawasaki</a></li>
+                        <li><a class="dropdown-item" href="#">Suzuki</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">AX 100</a></li>
+                        <li><a class="dropdown-item" href="#">AX 115</a></li>
+                        <li><a class="dropdown-item" href="#">FB 100</a></li>
+                        <li><a class="dropdown-item" href="#">Gixxer</a></li>
+                    </ul>
+                    <ul>
+                        <li><a class="dropdown-item" href="#">Bajaj</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Pulsar 125</a></li>
+                        <li><a class="dropdown-item" href="#">Pulsar 135</a></li>
+                        <li><a class="dropdown-item" href="#">Pulsar 200</a></li>
                     </ul>
                 </div>
             </div>
@@ -71,15 +119,21 @@
                     aria-expanded="false">
                     Repuestos
                 </a>
-                <div class="dropdown-menu">
+                <div class="dropdown-menu storeDropdown">
                     <ul>
                         <li><a class="dropdown-item" href="#">General</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
                         <li><a class="dropdown-item" href="#">Bujías</a></li>
                         <li><a class="dropdown-item" href="#">Cadenas</a></li>
                         <li><a class="dropdown-item" href="#">Pistones</a></li>
                     </ul>
                     <ul>
                         <li><a class="dropdown-item" href="#">Luces</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
                         <li><a class="dropdown-item" href="#">Delanteras</a></li>
                         <li><a class="dropdown-item" href="#">Traseras</a></li>
                         <li><a class="dropdown-item" href="#">Luces de Freno</a></li>
@@ -87,6 +141,9 @@
                     </ul>
                     <ul>
                         <li><a class="dropdown-item" href="#">Plásticos</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
                         <li><a class="dropdown-item" href="#">Cubre piernas</a></li>
                         <li><a class="dropdown-item" href="#">Guardabarros</a></li>
                         <li><a class="dropdown-item" href="#">Panel lateral</a></li>
@@ -100,9 +157,12 @@
                     aria-expanded="false">
                     Accesorios
                 </a>
-                <div class="dropdown-menu">
+                <div class="dropdown-menu storeDropdown">
                     <ul>
                         <li><a class="dropdown-item" href="#">Accesorios</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
                         <li><a class="dropdown-item" href="#">Cascos</a></li>
                         <li><a class="dropdown-item" href="#">Trancas</a></li>
                         <li><a class="dropdown-item" href="#">Kits de Emergrncias</a></li>
@@ -160,49 +220,117 @@
 
             <div class="col col-lg d-none d-lg-block">
                 <a href="#">
-                    <img src="IMG/Marcas de motos/Honda Logo.png" height="170">
+                    <img src="IMG/Marcas de motos/Honda Logo2.png" height="170">
                 </a>
             </div>
             <div class="col col-lg d-none d-lg-block">
                 <a href="#">
-                    <img src="IMG/Marcas de motos/Yamaha Logo.png" height="170">
+                    <img src="IMG/Marcas de motos/Yamaha Logo2.png" height="170">
                 </a>
             </div>
             <div class="col col-lg d-none d-lg-block">
                 <a href="#">
-                    <img src="IMG/Marcas de motos/Ducati Logo.png" height="170">
+                    <img src="IMG/Marcas de motos/Suzuki Logo.png" height="170">
                 </a>
             </div>
             <div class="col col-lg d-none d-lg-block">
                 <a href="#">
-                    <img src="IMG/Marcas de motos/Kawasaki Logo.png" height="170">
-                </a>
-            </div>
-            <div class="col col-lg d-none d-lg-block">
-                <a href="#">
-                    <img src="IMG/Marcas de motos/KTM Logo.png" height="170">
+                    <img src="IMG/Marcas de motos/Bajaj Logo.png" height="170">
                 </a>
             </div>
         </div>
     </div>
     <!-- End Brand Icons  -->
+    <br>
+    <!-- Accesorios sugeridos  -->
+    <div class="container">
+        <div class="col d-flex justify-content-center card text-center">
+            <div class="card-header bg-body-secondary">
+                <h4>Accesorios destacados</h4>
+            </div>
+            <div class="card-body row justify-content-between">
+                <div class="col-2 card featuredBox">
+                    <img src="IMG/Accesorios/Aceite.jfif" class="card-img-top border-bottom" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Aceite 2 tiempos</h5>
+                        <h6 class="card-text">$230</h6>
+                    </div>
+                </div>
+                <div class="col-2 card featuredBox">
+                    <img src="IMG/Accesorios/Casco MT.jfif" class="card-img-top border-bottom" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Casco MT</h5>
+                        <h6 class="card-text">$1500</h6>
+                    </div>
+                </div>
+                <div class="col-2 card featuredBox">
+                    <img src="IMG/Accesorios/Tranca de moto.png" class="card-img-top border-bottom" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Tranca para rueda</h5>
+                        <h6 class="card-text">$320</h6>
+                    </div>
+                </div>
+                <div class="col-2 card featuredBox">
+                    <img src="IMG/Accesorios/Infla sella.png" class="card-img-top border-bottom" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Infla Sella</h5>
+                        <h6 class="card-text">$670</h6>
+                    </div>
+                </div>
+                <div class="col-2 card featuredBox">
+                    <img src="IMG/Accesorios/Chalecos reflectivos.png" class="card-img-top border-bottom" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Chaleco reflectivo</h5>
+                        <h6 class="card-text">$50</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Accesorios sugeridos  -->
+    <br>
     <!--  Footer  -->
-    <footer class="bg-body-tertiary">
+    <footer class="bg-body-secondary">
         <div class="container-fluid">
-            <div class="row justify-content-evenly">
-                <div class="col-4 d-flex justify-content-end">
-                    <a class="h3 text-decoration-none" href="#">Preguntas Frecuentes</a>
+            <div class="row justify-content-center">
+                <div class="col-3 justify-content-end">
+                    <div class="d-flex justify-content-center">
+                        <h5>Dirección</h5>
+                    </div>
+                    <div class="mb-2 d-flex justify-content-center">
+                        <h6>Uruguay 1192 esquina Rondeau</h6>
+                    </div>
+                    <div class="mb-2 d-flex justify-content-center">
+                        <h6>Montevideo - Uruguay</h6>
+                    </div>
+                    <div class="mb-2 d-flex justify-content-center">
+                        <a href="https://maps.app.goo.gl/ekPDxQZVqAre7edx8"><img
+                                src="./IMG/Logos generales/Maps pin.png" class="iconImg" alt=""></a>
+                        <a class="h6 text-decoration-none" href="https://maps.app.goo.gl/ekPDxQZVqAre7edx8">Ver en
+                            Maps</a>
+                    </div>
                 </div>
                 <div class="col-3">
                     <div class="d-flex justify-content-center">
                         <p class="h5">Redes</p>
                     </div>
                     <div class="mb-2 d-flex justify-content-center">
-                        <a class="text-black text-decoration-none" href="#">instagram</a>
+                        <a href="https://www.instagram.com/centromoto_uruguay?igsh=MWdvZzZzZmd6c3hqNw=="><img
+                                src="./IMG/Logos generales/instagram.png" class="iconImg" alt=""></a>
                     </div>
                 </div>
-                <div class="col-3 d-flex justify-content-start">
-                    <a class="h5 text-decoration-none" href="#">Contacto</a>
+                <div class="col-3 ">
+                    <div class="d-flex justify-content-center">
+                        <p class="h5">Contacto</p>
+                    </div>
+                    <div class="mb-2 d-flex justify-content-center">
+                        <a href="#"><img src="./IMG/Logos generales/Whatsapp.png" class="iconImg" alt=""></a>
+                        <h5>&nbsp 097 976 092</h5>
+                    </div>
+                    <div class="mb-2 d-flex justify-content-center">
+                        <a href="#"><img src="./IMG/Logos generales/Telefono.png" class="iconImg" alt=""></a>
+                        <h5>&nbsp 2 900 04 89</h5>
+                    </div>
                 </div>
             </div>
         </div>
