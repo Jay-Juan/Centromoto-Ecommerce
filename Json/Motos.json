@@ -1,0 +1,86 @@
+[
+    {
+        "id": 101,
+        "marca": "Honda",
+        "modelo": "Honda 50",
+        "imagen": "IMG/Motos/Honda 50.png"
+    } ,
+    {
+        "id": 102,
+        "marca": "Honda",
+        "modelo": "Honda C70",
+        "imagen": "IMG/Motos/Honda C70.png"
+    } ,
+    {
+        "id": 103,
+        "marca": "Honda",
+        "modelo": "Honda C70 Econopower",
+        "imagen": "IMG/Motos/Honda C70 Econopower.png"
+    } ,
+    {
+        "id": 104,
+        "marca": "Honda",
+        "modelo": "Honda CG 125",
+        "imagen": "IMG/Motos/Honda CG125.png"
+    } ,
+    {
+        "id": 105,
+        "marca": "Yamaha",
+        "modelo": "Yamaha DT",
+        "imagen": ""
+    } ,
+    {
+        "id": 106,
+        "marca": "Yamaha",
+        "modelo": "Yamaha RDC 125",
+        "imagen":"" 
+    } ,
+    {
+        "id": 107,
+        "marca": "Yamaha",
+        "modelo": "Yamaha XJ 650",
+        "imagen": ""
+    } ,
+    {
+        "id": 108,
+        "marca": "Suzuki",
+        "modelo": "Suzuki AX 100",
+        "imagen": ""
+    } ,
+    {
+        "id": 106,
+        "marca": "Suzuki",
+        "modelo": "Suzuki AX 115",
+        "imagen":"" 
+    } ,
+    {
+        "id": 106,
+        "marca": "Suzuki",
+        "modelo": "Suzuki FB 100",
+        "imagen":"" 
+    } ,
+    {
+        "id": 109,
+        "marca": "Suzuki",
+        "modelo": "Suzuki Gixxer",
+        "imagen": ""
+    } ,
+    {
+        "id": 110,
+        "marca": "Bajaj",
+        "modelo": "Pulsar 125",
+        "imagen": ""
+    } ,
+    {
+        "id": 111,
+        "marca": "Bajaj",
+        "modelo": "Pulsar 135",
+        "imagen": ""
+    } ,
+    {
+        "id": 112,
+        "marca": "Bajaj",
+        "modelo": "Pulsar 200",
+        "imagen": ""
+    } 
+]

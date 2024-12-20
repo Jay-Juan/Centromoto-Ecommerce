@@ -8,10 +8,6 @@ body {
     margin-top: auto;
   }
 
-.featuredBox {
-
-}
-
 .productBox {
     width: 18rem;
 }
@@ -25,6 +21,10 @@ body {
     transform: scale(1.2);
     z-index: 2;
 }
+
+.dropdown-toggle::after { 
+    content: none; 
+} 
 
 .dropdown {
     text-align: center;
@@ -61,4 +61,8 @@ body {
 
 .card-title{
     color: #000;
+}
+
+#carouselContainer{
+    margin-top: 110px;
 }
