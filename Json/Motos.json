@@ -27,60 +27,60 @@
         "id": 105,
         "marca": "Yamaha",
         "modelo": "Yamaha DT",
-        "imagen": ""
+        "imagen": "IMG/Motos/Yamaha DT"
     } ,
     {
         "id": 106,
         "marca": "Yamaha",
         "modelo": "Yamaha RDC 125",
-        "imagen":"" 
+        "imagen":"IMG/Motos/Yamaha RDC 125.png" 
     } ,
     {
         "id": 107,
         "marca": "Yamaha",
         "modelo": "Yamaha XJ 650",
-        "imagen": ""
+        "imagen": "IMG/Motos/Yamaha XJ 650.png"
     } ,
     {
         "id": 108,
         "marca": "Suzuki",
         "modelo": "Suzuki AX 100",
-        "imagen": ""
+        "imagen": "IMG/Motos/Suzuki AX 100.png"
     } ,
     {
         "id": 106,
         "marca": "Suzuki",
         "modelo": "Suzuki AX 115",
-        "imagen":"" 
+        "imagen":"IMG/Motos/Suzuki AX 115.png" 
     } ,
     {
         "id": 106,
         "marca": "Suzuki",
         "modelo": "Suzuki FB 100",
-        "imagen":"" 
+        "imagen":"IMG/Motos/Suzuki FB 100.png" 
     } ,
     {
         "id": 109,
         "marca": "Suzuki",
         "modelo": "Suzuki Gixxer",
-        "imagen": ""
+        "imagen": "IMG/Motos/Suzuki Gixxer.png"
     } ,
     {
         "id": 110,
         "marca": "Bajaj",
         "modelo": "Pulsar 125",
-        "imagen": ""
+        "imagen": "IMG/Motos/Pulsar 125.png"
     } ,
     {
         "id": 111,
         "marca": "Bajaj",
         "modelo": "Pulsar 135",
-        "imagen": ""
+        "imagen": "IMG/Motos/Pulsar 135.png"
     } ,
     {
         "id": 112,
         "marca": "Bajaj",
         "modelo": "Pulsar 200",
-        "imagen": ""
+        "imagen": "IMG/Motos/Pulsar 200.png"
     } 
 ]

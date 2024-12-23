@@ -1,0 +1,26 @@
+[
+    {
+        "id": 201,
+        "marca": "Honda",
+        "imagen": "IMG/Marcas de motos/Honda Logo.png",
+        "imagenSecundaria": ""
+    },
+    {
+        "id": 202,
+        "marca": "Yamaha",
+        "imagen": "IMG/Marcas de motos/Yamaha Logo.png",
+        "imagenSecundaria": "IMG/Marcas de motos/Yamaha Logo2.png"
+    },
+    {
+        "id": 203,
+        "marca": "Suzuki",
+        "imagen": "IMG/Marcas de motos/Suzuki Logo.png",
+        "imagenSecundaria": ""
+    },
+    {
+        "id": 204,
+        "marca": "Bajaj",
+        "imagen": "IMG/Marcas de motos/Bajaj Logo.png",
+        "imagenSecundaria": ""
+    }
+]

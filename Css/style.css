@@ -63,6 +63,6 @@ body {
     color: #000;
 }
 
-#carouselContainer{
+#carouselContainer, #marcaContainer, .underNavbar{
     margin-top: 110px;
 }
