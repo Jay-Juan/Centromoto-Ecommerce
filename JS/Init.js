@@ -9,7 +9,7 @@ function showNavbar() {
                     </a>
                 </div>
 
-                <div class="col-lg-2 col-md-4 col-sm d-lg-none d-flex justify-content-center">         <!-- sm logo -->
+                <div class="col-lg-2 col-md-4 col-sm d-lg-none d-flex justify-content-between">         <!-- sm logo -->
                     <a class="navbar-brand" href="./index.html">
                         <img src="./IMG/Logos del local/Centromoto Logo.png" height="50">
                     </a>
@@ -121,7 +121,7 @@ function showNavbar() {
 
 
 
-                <div class="col-lg-6 col-md-4">
+                <div class="col-lg-6 col-md-12">
                     <form class="d-flex bg-white rounded border" role="search">
                         <input class="form-control me-0 border-white" type="search"
                             placeholder="Buscá tu moto, marca o pieza" aria-label="Search">
@@ -129,7 +129,7 @@ function showNavbar() {
                                 alt=""></button>
                     </form>
                 </div>
-                <div class="col-lg-1 col-md-2 d-flex d-none d-lg-block justify-content-start">
+                <div class="col-lg-2 col-md-2 d-flex d-none d-lg-block justify-content-start">
                     <div class="dropdown">
                         <a class="nav-link dropdown-toggle btn" data-bs-toggle="dropdown" aria-expanded="false">
                             Iniciar sesión
@@ -160,7 +160,7 @@ function showNavbar() {
                         </div>
                     </div>
                 </div>
-                <div class=" col-lg-1 col-md-1 d-flex justify-content-lg-start justify-content-md-center">
+                <div class=" col-lg-1 col-md-1 d-flex justify-content-lg-start d-none d-lg-block justify-content-md-center">
                     <i class="bi bi-cart" width="40"></i>
                 </div>
             </div>
